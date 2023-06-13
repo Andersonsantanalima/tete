@@ -1,11 +1,11 @@
 *** Git config ****
 
 Configurando conta do usuário:
-  git config --global user.email "email_user@dominio.com"
-  git config --global user.name "Nome Sobrenome"
+  git config --global user.email "n353347@gmail.com"
+  git config --global user.name "andersonsantanalima"
 
 Enviar projeto para um repositório
-	git remote add origin https://github.com/ElitonCamargo/api_LojaVeiculo_php.git 
+	git remote add origin 
 	git branch -M master
 	git push -u origin master
 
@@ -25,4 +25,4 @@ Resetar diretório
 	git add .
 	git reset --hard HEAD
 	git pull
-	git checkout 2023-05-15
+	git checkout 
