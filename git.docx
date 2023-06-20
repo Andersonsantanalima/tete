@@ -26,3 +26,11 @@ Resetar diretório
 	git reset --hard HEAD
 	git pull
 	git checkout 
+…or create a new repository on the command line
+echo "# t" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Andersonsantanalima/t.git
+git push -u origin main
